@@ -12,5 +12,12 @@ stages:
     deps:
     - path: ./src/features/build_features.py
       hash: md5
-      md5: 4c929f7b765711d6cbea96d8b76c8d0a
-      size: 1093
+      md5: 9b3c5e78befacdb3bcc3f9103baab5dc
+      size: 1357
+  train_model:
+    cmd: python ./src/models/train_model.py
+    deps:
+    - path: ./src/models/train_model.py
+      hash: md5
+      md5: 667bc52f0079ca9e4cd498fc8dd96a2a
+      size: 3445

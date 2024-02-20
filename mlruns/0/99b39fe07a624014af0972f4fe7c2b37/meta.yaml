@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/nirbhaysedha/Desktop/zomato_project/mlruns/0/99b39fe07a624014af0972f4fe7c2b37/artifacts
+deleted_time: 1708415573342
+end_time: 1708414732522
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 99b39fe07a624014af0972f4fe7c2b37
+run_name: XGBRegressor
+run_uuid: 99b39fe07a624014af0972f4fe7c2b37
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708414732493
+status: 4
+tags: []
+user_id: nirbhaysedha

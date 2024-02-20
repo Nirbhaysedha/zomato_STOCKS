@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/nirbhaysedha/Desktop/zomato_project/mlruns/0/389475d048214b0bb23b9d99c98ec9a9/artifacts
+end_time: 1708415478710
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 389475d048214b0bb23b9d99c98ec9a9
+run_name: XGB Final Model
+run_uuid: 389475d048214b0bb23b9d99c98ec9a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708415476146
+status: 3
+tags: []
+user_id: nirbhaysedha
