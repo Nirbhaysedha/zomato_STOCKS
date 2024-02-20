@@ -7,3 +7,10 @@ stages:
       hash: md5
       md5: 65e06d0412ccda2ba2c28296a07ec23d
       size: 758
+  build_features:
+    cmd: python ./src/features/build_features.py
+    deps:
+    - path: ./src/features/build_features.py
+      hash: md5
+      md5: 4c929f7b765711d6cbea96d8b76c8d0a
+      size: 1093

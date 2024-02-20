@@ -3,3 +3,7 @@ stages:
     cmd: python ./src/data/make_dataset.py
     deps:
     - ./src/data/make_dataset.py
+  build_features:
+    cmd: python ./src/features/build_features.py
+    deps:
+    - ./src/features/build_features.py
