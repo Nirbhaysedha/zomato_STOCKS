@@ -14,7 +14,7 @@ class PredictionInput(BaseModel):
     Close: float
     Adj_Close: float
 
-model_path = "./models/model.joblib"
+model_path = "model.joblib"
 model = load(model_path)
 
 @app.get("/")
