@@ -1,5 +1,5 @@
 # this code is used to send the model to s3 bucket!
-
+# boto3 is used to push data on s3
 import boto3 # boto3 is sdk
 import shutil
 from botocore.exceptions import NoCredentialsError
