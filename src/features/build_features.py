@@ -14,7 +14,8 @@ def remove_columns(train):
     return train
 
 def rename_f(df):
-    df['Adj_Close']=df['']
+    df.rename(columns={'Adj Close': 'Adj_Close'},inplace=True)
+    return df
 
 def splitting(train_scaled):
     df=pd.DataFrame(train_scaled)
@@ -43,7 +44,8 @@ def main():
     train_path=parent.as_posix()+'/data/interim/train.csv'
     train=load_data(train_path)
     trainr=remove_columns(train)
-    x_train,y_train=splitting(trainr)
+    df=rename_f(trainr)
+    x_train,y_train=splitting(df)
     path=parent.as_posix()+'/data/processed/'
     save_data(x_train,y_train,path)
 

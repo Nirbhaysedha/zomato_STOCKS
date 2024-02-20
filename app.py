@@ -28,7 +28,7 @@ def predict(input_data: PredictionInput):
             'High': input_data.High,
             'Low': input_data.Low,
             'Close': input_data.Close,
-            'Adj close': input_data.Adj_Close
+            'Adj_Close': input_data.Adj_Close
 }
     features = pd.DataFrame(features, index=[0])
     prediction = model.predict(features)[0].item()

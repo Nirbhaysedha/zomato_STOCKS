@@ -88,7 +88,6 @@ def main():
     y_test=pd.read_csv(home_dir.as_posix()+'/data/processed/y_test.csv')
 
     trained_model = find_best_model_with_params(x_train, y_train, x_test, y_test)
-    print(x_train)
     save_model(trained_model, output_path)
 
 if __name__=='__main__':
