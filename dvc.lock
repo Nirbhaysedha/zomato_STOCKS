@@ -1,0 +1,9 @@
+schema: '2.0'
+stages:
+  make_dataset:
+    cmd: python ./src/data/make_dataset.py
+    deps:
+    - path: ./src/data/make_dataset.py
+      hash: md5
+      md5: 65e06d0412ccda2ba2c28296a07ec23d
+      size: 758
