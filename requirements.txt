@@ -1,6 +1,7 @@
-dvclive
-pandas 
-numpy
-ipykernel
+fastapi
+joblib
+uvicorn
 scikit-learn
-mlflow
+pandas
+xgboost
+docker
